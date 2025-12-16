@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+    margin-right: 50px;
+    padding-left: 81px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    z-index: 353;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 20px;
+    display: block;
+    font-weight: bold;
+   font-family: Manrope;
+}
+
+.apply-btnone{
+    background-color: #0093f7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    height: 47px;
+    cursor: pointer;
+    font-weight: 5;
+    width: 136px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.content1 {
+    margin-left: 110px;
+    margin-top: 210px;
+}
+.title1{
+    font-family: Manrope;
+    font-weight: bold;
+    font-size: 30px;
+}
+.title2{
+    font-family: Manrope;
+    line-height: 2;
+    font-size: 55px;
+    font-weight: bold;
+    color:  #0093f7;
+}
+
+.title3{
+    color:  #0093f7;
+    font-weight: bold;
+    font-family: Manrope;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.myvedeo{
+    float: right;
+    position: relative;
+    top: -410px;
+    right: 90px;
+    width: 500px;
+    
+}
+
+.img-one{
+    width: 350px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.para-one{
+    font-family: Manrope;
+    font-size: 17px;
+}
+.apply-btntwo {
+    background-color: #0093f7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: Manrope;
+    height: 53px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.img-two{
+    width: 1250px;
+    margin-top: -350px;
+}
+.myvedeotwo{
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.img-three {
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.title4{
+    float: right;
+    margin-top: 140px;
+    margin-right: -70px;
+    font-family: Manrope;
+    font-size:60px;
+    font-weight: 600;
+}
+.title5{
+    float: right;
+    margin-top: 210px;
+    font-family: Manrope;
+    margin-right: -260px;
+    font-size:60px;
+    font-weight: 600;
+}
+
+.para-two{
+    text-align: right;
+    float: right;
+    max-width: 800px;
+    margin-right: 87px;
+    margin-top: -200px;
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 300;
+    color: #444444;
+}
+.myvedeothree{
+    float: right;
+    margin-right: 90px;
+    width: 500px;
+}
+
+.content2{
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 550px;
+    margin-bottom: 50px ;
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.img-four {
+    margin-left: 100px;
+    width: 70px;
+}
+.title6{
+    margin-left: 100px;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 600;
+}
+.para-three{
+    font-family: Manrope;
+    margin-left: 100px;
+    font-size: 25px;
+    color: #444444
+}
+.myvedeofour{
+    width: 450px;
+    margin-left: 100px;
+}
+
+.img-five{
+    float: right;
+    margin-right: 100px;
+    margin-top: 80px;
+    width: 60px;
+}
+.title7{
+    float: right;
+    text-align: right;
+    margin-top: 130px;
+    margin-right: -65px;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.para-four {
+    float: right;
+    font-size: 25px;
+    margin-right: 90px;
+    margin-top: -180px;
+    text-align: right;
+    font-family: Manrope;
+    color: #444444
+}
+.img-six{
+    margin-top: 155px;
+    margin-left: 130px;
+    width: 64px;
+}
+.title8{
+     margin-left: 120px;
+     font-family: Manrope;
+     font-size: 50px;
+     font-weight: 500;
+}
+.myvedeofive{
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+}
+.content3{
+    background-color: #f2f2f2;
+    padding-bottom: 75px;
+}
+.para-five{
+    font-family: Manrope;
+    color: #444444;
+    font-size: 25px;
+    margin-left: 120px;
+}
+.myvedeosix{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.img-seven {
+    float: right;
+    margin-top: -400px;
+    margin-right: 100px;
+}
+.title9{
+    float: right;
+    margin-top: -337px;
+    font-family: Manrope;
+    font-size: 50px;
+    text-align: right;
+    line-height: 1;
+    margin-right: 100px;
+}
+.para-six{
+    float: right;
+    text-align: right;
+    font-size: 25px;
+    font-family: Manrope;
+    color: #444444;
+    font-weight: 500;
+    margin-right: 100px;
+    margin-top: -232px;
+}
+.img-eight{
+    width: 500px;
+    float: right;
+    margin-right: 130px;
+    padding-top: 50px;
+}
+.img-nine{
+    width: 70px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.content4{
+   background-color: #f2f2f2;
+   margin-top: 70px;
+   padding-bottom: 100px;
+}
+.title10{
+    font-family: Manrope;
+    margin-left: 100px;
+    font-size: 45px;
+}
+.para-seven{
+    font-family: Manrope;
+    margin-left: 100px;
+    color: #444444;
+    font-size: 25px;
+}
+
+.apply-btnthree{
+    background-color: #0093f7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: Manrope;
+    height: 43px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 100px;
+    width: 140px;
+    margin-top: 20px;
+}
+
+.title11{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 600;
+}
+.para-eight{
+    font-family: Manrope;
+    color: #444444;
+     font-size: 25px;
+     font-weight: normal;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+}
+.img-group{
+    display: flex;
+    justify-content: center;
+}
+.img-group img{
+    width: 250px;
+    margin: 20px;
+    height: 100px;
+    border-radius: 15%;
+}
+.logo2{
+    background-color: #000000;
+    height: 100px;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer{
+   text-align: center;
+   background-color: #121212;
+}
+.title-ft1 {
+    color: #0093f7;
+    font-family: Manrope;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.para-ft1{
+    color: #fff;
+     font-family: Manrope;
+     font-size: 22px;
+     line-height: 1.5;
+}
+.title-ft2{
+     color: #fff;
+     font-family: Manrope;
+     font-size: 20px;
+     margin-top: 60px;
+     margin-bottom: 40px;
+}
+.icon-ft{
+     justify-content: center;
+     display: flex; 
+     margin-bottom: 50px;
+}
+.icon-ft img{
+    margin: 8px;
+}
+.li-title,
+.li-title2,
+.li-title3{
+     color: #fff;
+     margin-bottom: 15px;
+}
+
+.ft-li-1 li,
+.ft-li-2 li,
+.ft-li-3 li {
+     color: #0093f7;
+}
+.ft-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px;
+}
+.ft-list li{
+    list-style: none;
+    line-height: 1.5;
+    font-family: Manrope;
+    font-size: 20;
+    font-weight: 500;
+}
+.ft-bottom-img{
+    width: 350px;
+}
+.ft-icon1,
+.ft-icon2 {
+    width: 40px;
+    height: 20px;
+    margin-top: 5px;
+}
+.ft-bottom-icon{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+.ft-icon3{
+   width: 70px;
+   height: 20px;
+   margin-top: 10px;
+}
+.ft-para{
+    color: #fff;
+    padding-bottom: 60px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: normal;
+}
